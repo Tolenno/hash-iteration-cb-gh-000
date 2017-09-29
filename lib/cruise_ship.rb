@@ -7,5 +7,5 @@
 # }
 
 def select_winner(passengers)
-  passengers.select {|key, value| key == :suit_a && value.start_with("A")}
+  passengers.each {|key, value| key == :suit_a && value.start_with("A")}
 end
