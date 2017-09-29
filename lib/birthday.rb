@@ -5,7 +5,9 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+  birthday_kids.each 
 end
 
 
+
+"Happy Birthday #{name}! You are now 9 years old!""
