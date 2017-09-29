@@ -10,6 +10,7 @@ def select_winner(passengers)
   winner = ""
   passengers.each do |key, value|
     if key == :suit_a && value.start_with("A")
-  end
-  winner
+      winner = value
+    end
+      winner
 end
